@@ -1,0 +1,16 @@
+.footer {
+  background: var(--White);
+  // margin-top: auto;
+  position: relative;
+  bottom: 0;
+
+  &__copyright {
+    text-align: center;
+    color: var(--Black);
+    font-kerning: none;
+    font-feature-settings: "calt" off;
+    font: var(--Paragraph_Progress-15);
+    text-transform: capitalize;
+    padding: 18px 0 18px 0;
+  }
+}
